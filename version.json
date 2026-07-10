@@ -1,5 +1,5 @@
 {
-  "version": "1.2.0",
+  "version": "1.2.1",
   "url": "https://raw.githubusercontent.com/wangjohn1986/fenben-helper/main/OrderClassify.zip",
-  "notes": "線上規則同步、規則更新時間顯示、檢查更新按鈕"
+  "notes": "規則與程式合併到同一個 GitHub 庫（fenben-helper）"
 }

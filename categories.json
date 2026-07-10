@@ -1,0 +1,419 @@
+{
+  "_type": "order_classify_categories",
+  "version": 1783696437375,
+  "categories": [
+    {
+      "_count": 1,
+      "_layerId": "UI0",
+      "children": [],
+      "conditions": [
+        {
+          "max": 30,
+          "min": 1,
+          "type": "amount"
+        }
+      ],
+      "id": "cat_1783516200176_7cv5l",
+      "name": "低價訂單 (30元以下)",
+      "queue": "第0層_低價訂單",
+      "sortMode": "stock",
+      "twoStage": false
+    },
+    {
+      "_count": 1,
+      "_layerId": "UI1",
+      "conditions": [
+        {
+          "type": "icon",
+          "values": [
+            "黑名單",
+            "灰名單",
+            "店家備註",
+            "買家備註",
+            "出貨備註"
+          ]
+        }
+      ],
+      "id": "cat_1783516115307_9ij6h",
+      "name": "備註",
+      "queue": "第0層_備註",
+      "sortMode": "date-asc"
+    },
+    {
+      "_count": 4,
+      "_layerId": "UI2",
+      "conditions": [
+        {
+          "type": "freight",
+          "values": [
+            "新竹物流"
+          ]
+        }
+      ],
+      "id": "cat_1783516629952_vv149",
+      "name": "宅配_新竹",
+      "queue": "第1層_宅配_新竹物流",
+      "sortMode": "date-asc"
+    },
+    {
+      "_count": 1,
+      "_layerId": "UI3",
+      "conditions": [
+        {
+          "type": "freight",
+          "values": [
+            "便利帶",
+            "嘉里物流"
+          ]
+        }
+      ],
+      "id": "cat_1783516676888_mhq4s",
+      "name": "宅配_大榮/便利帶",
+      "queue": "第1層_宅配_大榮/便利帶",
+      "sortMode": "freight"
+    },
+    {
+      "_count": 78,
+      "_layerId": "UI4",
+      "conditions": [
+        {
+          "type": "icon",
+          "values": [
+            "蝦皮無包裝"
+          ]
+        }
+      ],
+      "id": "cat_1783517349862_exufa",
+      "name": "無包裝",
+      "queue": "第2層_無包裝_1",
+      "sortMode": "date-asc"
+    },
+    {
+      "_count": 6,
+      "_layerId": "UI5",
+      "children": [],
+      "conditions": [
+        {
+          "type": "freight",
+          "values": [
+            "蝦皮店到家",
+            "蝦皮隔日到貨"
+          ]
+        },
+        {
+          "matchMode": "single",
+          "type": "stock",
+          "values": [
+            "2",
+            "3",
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H1+H2",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O",
+            "P"
+          ]
+        }
+      ],
+      "id": "cat_1783517387062_wzj09",
+      "name": "單品_隔日配/店到家",
+      "queue": "第4層_單區_隔日配/店到家",
+      "sortMode": "stock",
+      "twoStage": false
+    },
+    {
+      "_count": 2,
+      "_layerId": "UI6",
+      "children": [],
+      "conditions": [
+        {
+          "type": "freight",
+          "values": [
+            "7-11",
+            "全家"
+          ]
+        },
+        {
+          "matchMode": "single",
+          "type": "stock",
+          "values": [
+            "2",
+            "3",
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H1+H2",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O",
+            "P"
+          ]
+        }
+      ],
+      "id": "cat_1783517761771_n10r6",
+      "name": "單品_超商",
+      "queue": "第3層_單區_超商",
+      "sortMode": "stock",
+      "twoStage": false
+    },
+    {
+      "_count": 12,
+      "_layerId": "UI7",
+      "children": [],
+      "conditions": [
+        {
+          "type": "freight",
+          "values": [
+            "蝦皮店到店"
+          ]
+        },
+        {
+          "matchMode": "single",
+          "type": "stock",
+          "values": [
+            "2",
+            "3",
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H1+H2",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O",
+            "P"
+          ]
+        }
+      ],
+      "id": "cat_1783518534013_zjddd",
+      "name": "單品_店到店",
+      "queue": "第3層_單區_店到店",
+      "sortMode": "stock",
+      "twoStage": false
+    },
+    {
+      "_count": 6,
+      "_layerId": "UI8",
+      "children": [],
+      "conditions": [
+        {
+          "type": "freight",
+          "values": [
+            "7-11",
+            "全家",
+            "蝦皮店到家",
+            "蝦皮店到店",
+            "蝦皮隔日到貨"
+          ]
+        },
+        {
+          "matchMode": "all",
+          "type": "stock",
+          "values": [
+            "HA",
+            "HB",
+            "HC",
+            "HD"
+          ]
+        }
+      ],
+      "id": "cat_1783517984119_6lli1",
+      "name": "重架區/急單",
+      "queue": "第3層_重料區/D商品/急單",
+      "sortMode": "stock",
+      "twoStage": false
+    },
+    {
+      "_count": 7,
+      "_layerId": "UI9",
+      "children": [],
+      "conditions": [
+        {
+          "matchMode": "any",
+          "type": "goods",
+          "values": [
+            "D134",
+            "D125",
+            "D187",
+            "D219",
+            "D452",
+            "D461",
+            "D463",
+            "D540",
+            "D509"
+          ]
+        },
+        {
+          "type": "freight",
+          "values": [
+            "7-11",
+            "全家",
+            "蝦皮店到家",
+            "蝦皮店到店",
+            "蝦皮隔日到貨"
+          ]
+        }
+      ],
+      "id": "cat_1783529812745_u4rvf",
+      "name": "D商品",
+      "queue": "第3層_重料區/D商品/急單",
+      "sortMode": "stock",
+      "twoStage": false
+    },
+    {
+      "_count": 31,
+      "_fanoutTotal": null,
+      "_layerId": "UI10",
+      "children": [
+        {
+          "_count": null,
+          "_layerId": null,
+          "conditions": [
+            {
+              "type": "freight",
+              "values": [
+                "蝦皮店到家",
+                "蝦皮隔日到貨"
+              ]
+            }
+          ],
+          "id": "child_1783523809804_r7vnp",
+          "name": "隔日配/店到家",
+          "queue": "第4層_跨區_隔日配/店到家"
+        },
+        {
+          "_count": null,
+          "_layerId": null,
+          "conditions": [
+            {
+              "type": "freight",
+              "values": [
+                "7-11",
+                "全家"
+              ]
+            }
+          ],
+          "id": "child_1783530309945_go6u2",
+          "name": "超商",
+          "queue": "第4層_跨區_超商"
+        },
+        {
+          "_count": null,
+          "_layerId": null,
+          "conditions": [
+            {
+              "type": "freight",
+              "values": [
+                "蝦皮店到店"
+              ]
+            },
+            {
+              "type": "shop",
+              "values": [
+                "1號店",
+                "2號店"
+              ]
+            }
+          ],
+          "id": "child_1783530331560_qw1oo",
+          "name": "店到店_小妹+迪歐",
+          "queue": "第4層_跨區_店到店_小妹+迪歐"
+        },
+        {
+          "_count": null,
+          "_layerId": null,
+          "conditions": [
+            {
+              "type": "freight",
+              "values": [
+                "蝦皮店到店"
+              ]
+            },
+            {
+              "type": "shop",
+              "values": [
+                "0號店"
+              ]
+            }
+          ],
+          "id": "child_1783666985231_i6tdc",
+          "name": "店到店_小哥",
+          "queue": "第4層_跨區_店到店_小哥"
+        },
+        {
+          "_count": null,
+          "_layerId": null,
+          "conditions": [
+            {
+              "type": "freight",
+              "values": [
+                "蝦皮店到店"
+              ]
+            },
+            {
+              "type": "shop",
+              "values": [
+                "0號店"
+              ]
+            },
+            {
+              "max": null,
+              "min": 5,
+              "type": "spec"
+            }
+          ],
+          "id": "child_1783667131828_27ltx",
+          "name": "店到店_小哥(規格5↑)",
+          "queue": "第4層_跨區_店到店_小哥(件數5↑)"
+        }
+      ],
+      "conditions": [
+        {
+          "type": "freight",
+          "values": [
+            "7-11",
+            "全家",
+            "蝦皮店到家",
+            "蝦皮店到店",
+            "蝦皮隔日到貨"
+          ]
+        },
+        {
+          "matchMode": "cross",
+          "type": "stock",
+          "values": []
+        }
+      ],
+      "id": "cat_1783523741769_5f39b",
+      "name": "跨區",
+      "queue": "第4層_【跨區】_未分類",
+      "sortMode": "date-asc",
+      "twoStage": true
+    }
+  ]
+}
